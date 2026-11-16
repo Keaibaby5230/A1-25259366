@@ -10,7 +10,7 @@ import java.util.Objects;
  * implements {@link Comparable}, so a collection of appointments can be sorted
  * by time with the standard Java sorting tools.</p>
  *
- * @author  Dong Xinyang (25259366)
+ * @author  Zekai Wang (25259366)
  * @version 1.0
  */
 public final class TimeSlot implements Comparable<TimeSlot> {

@@ -22,7 +22,7 @@ import java.util.Objects;
  * appointments at the same time are left in whatever order they were found,
  * which is exactly what the clinic requires.</p>
  *
- * @author  Dong Xinyang (25259366)
+ * @author  Zekai Wang (25259366)
  * @version 1.0
  */
 public class Appointment implements Comparable<Appointment> {

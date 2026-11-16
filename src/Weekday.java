@@ -7,7 +7,7 @@
  * the compiler instead of by a patient at the reception desk, which means the
  * working-days data of a health professional can never become invalid.</p>
  *
- * @author  Dong Xinyang (25259366)
+ * @author  Zekai Wang (25259366)
  * @version 1.0
  */
 public enum Weekday {

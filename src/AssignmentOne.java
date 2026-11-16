@@ -15,7 +15,7 @@ import java.util.List;
  * that appointments can be sorted. Part 6 runs the appointment system end to
  * end, covering the successful operations and the ones that must be refused.</p>
  *
- * @author  Dong Xinyang (25259366)
+ * @author  Zekai Wang (25259366)
  * @version 1.0
  */
 public class AssignmentOne {

@@ -7,7 +7,7 @@
  * that is new here is the consultation room the general practitioner works
  * from.</p>
  *
- * @author  Dong Xinyang (25259366)
+ * @author  Zekai Wang (25259366)
  * @version 1.0
  */
 public class GeneralPractitioner extends Doctor {

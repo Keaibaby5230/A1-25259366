@@ -10,7 +10,7 @@ import java.util.List;
  * clinic ever changes its hours, only the arguments given to this constructor
  * have to change; the booking logic keeps working unchanged.</p>
  *
- * @author  Dong Xinyang (25259366)
+ * @author  Zekai Wang (25259366)
  * @version 1.0
  */
 public class ClinicSchedule {

@@ -20,7 +20,7 @@ import java.util.Objects;
  * object into an invalid state, and all validity checks happen once, inside
  * the constructor.</p>
  *
- * @author  Dong Xinyang (25259366)
+ * @author  Zekai Wang (25259366)
  * @version 1.0
  */
 public abstract class HealthProfessional {

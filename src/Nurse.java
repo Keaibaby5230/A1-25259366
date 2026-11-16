@@ -8,7 +8,7 @@
  * {@link HealthProfessional}; what a nurse adds is the ward they work on and
  * the samples they take.</p>
  *
- * @author  Dong Xinyang (25259366)
+ * @author  Zekai Wang (25259366)
  * @version 1.0
  */
 public class Nurse extends HealthProfessional {

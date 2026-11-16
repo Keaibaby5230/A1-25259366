@@ -5,7 +5,7 @@
  * are inherited. The data that is new here is the operating theatre the
  * surgeon works in.</p>
  *
- * @author  Dong Xinyang (25259366)
+ * @author  Zekai Wang (25259366)
  * @version 1.0
  */
 public class Surgeon extends Doctor {

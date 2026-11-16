@@ -7,7 +7,7 @@
  * adds is the area of nutrition they specialise in and the meal plans they
  * prepare.</p>
  *
- * @author  Dong Xinyang (25259366)
+ * @author  Zekai Wang (25259366)
  * @version 1.0
  */
 public class Dietitian extends HealthProfessional {

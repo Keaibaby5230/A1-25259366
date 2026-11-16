@@ -9,7 +9,7 @@ import java.util.Objects;
  * contact number. Keeping these rules in one place means every appointment
  * that holds a patient automatically holds a valid one.</p>
  *
- * @author  Dong Xinyang (25259366)
+ * @author  Zekai Wang (25259366)
  * @version 1.0
  */
 public class Patient {

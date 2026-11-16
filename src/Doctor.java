@@ -7,7 +7,7 @@
  * the cardiologist and the surgeon do not each have to declare it. It is
  * still abstract: only a specific kind of doctor can be created.</p>
  *
- * @author  Dong Xinyang (25259366)
+ * @author  Zekai Wang (25259366)
  * @version 1.0
  */
 public abstract class Doctor extends HealthProfessional {

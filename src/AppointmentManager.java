@@ -21,7 +21,7 @@ import java.util.List;
  * "SUCCESS" line when the booking was made or cancelled, or a "WARNING" line
  * explaining exactly why it was not.</p>
  *
- * @author  Dong Xinyang (25259366)
+ * @author  Zekai Wang (25259366)
  * @version 1.0
  */
 public class AppointmentManager {

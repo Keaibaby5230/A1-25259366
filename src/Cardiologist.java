@@ -7,7 +7,7 @@
  * the sub-specialty the cardiologist practises, for example interventional
  * cardiology or a heart failure clinic.</p>
  *
- * @author  Dong Xinyang (25259366)
+ * @author  Zekai Wang (25259366)
  * @version 1.0
  */
 public class Cardiologist extends Doctor {
