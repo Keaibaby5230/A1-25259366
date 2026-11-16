@@ -10,7 +10,7 @@ import java.util.Objects;
  * work. It is <strong>abstract</strong> on purpose. There is no such thing as
  * a health professional without a specialty, so the class cannot be
  * instantiated directly; every actual professional must be created through one
- * of the concrete subclasses in Parts 2 and 3. The abstract methods at the
+ * of the concrete subclasses added in Part 2. The abstract methods at the
  * bottom of the class also force every subclass to say what kind of
  * professional it is, what extra data it carries and what it does for a
  * patient, which is what makes the design robust as new types are added.</p>
@@ -26,7 +26,7 @@ import java.util.Objects;
 public abstract class HealthProfessional {
 
     /** The days worked when the caller does not supply any: Monday to Friday. */
-    private static final Weekday[] DEFAULT_WORKING_DAYS = {
+    protected static final Weekday[] DEFAULT_WORKING_DAYS = {
         Weekday.MONDAY, Weekday.TUESDAY, Weekday.WEDNESDAY, Weekday.THURSDAY, Weekday.FRIDAY
     };
 
@@ -121,6 +121,16 @@ public abstract class HealthProfessional {
      */
     public List<Weekday> getWorkingDays() {
         return new ArrayList<>(workingDays);
+    }
+
+    /**
+     * Returns the working days as one readable comma-separated line, for example
+     * "Monday, Wednesday, Friday".
+     *
+     * @return the working days in displayable text
+     */
+    public String getWorkingDaysText() {
+        return formatWorkingDays();
     }
 
     /**

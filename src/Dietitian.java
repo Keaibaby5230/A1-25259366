@@ -43,9 +43,7 @@ public class Dietitian extends HealthProfessional {
      * @throws IllegalArgumentException if any detail is missing or invalid
      */
     public Dietitian(String id, String name, String dietaryFocus) {
-        this(id, name, dietaryFocus,
-                // Default roster: the standard Monday to Friday week.
-                Weekday.MONDAY, Weekday.TUESDAY, Weekday.WEDNESDAY, Weekday.THURSDAY, Weekday.FRIDAY);
+        this(id, name, dietaryFocus, DEFAULT_WORKING_DAYS);
     }
 
     /**

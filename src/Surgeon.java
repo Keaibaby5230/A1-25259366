@@ -44,9 +44,7 @@ public class Surgeon extends Doctor {
      * @throws IllegalArgumentException if any detail is missing or invalid
      */
     public Surgeon(String id, String name, String licenceNumber, String operatingTheatre) {
-        this(id, name, licenceNumber, operatingTheatre,
-                // Default roster: the standard Monday to Friday week.
-                Weekday.MONDAY, Weekday.TUESDAY, Weekday.WEDNESDAY, Weekday.THURSDAY, Weekday.FRIDAY);
+        this(id, name, licenceNumber, operatingTheatre, DEFAULT_WORKING_DAYS);
     }
 
     /**

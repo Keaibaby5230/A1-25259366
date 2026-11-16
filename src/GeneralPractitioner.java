@@ -46,9 +46,7 @@ public class GeneralPractitioner extends Doctor {
      * @throws IllegalArgumentException if any detail is missing or invalid
      */
     public GeneralPractitioner(String id, String name, String licenceNumber, String clinicRoom) {
-        this(id, name, licenceNumber, clinicRoom,
-                // Default roster: the standard Monday to Friday week.
-                Weekday.MONDAY, Weekday.TUESDAY, Weekday.WEDNESDAY, Weekday.THURSDAY, Weekday.FRIDAY);
+        this(id, name, licenceNumber, clinicRoom, DEFAULT_WORKING_DAYS);
     }
 
     /**
@@ -61,9 +59,7 @@ public class GeneralPractitioner extends Doctor {
      * @throws IllegalArgumentException if any detail is missing or invalid
      */
     public GeneralPractitioner(String id, String name, String licenceNumber) {
-        this(id, name, licenceNumber, "General Clinic, Room 1",
-                // Default roster: the standard Monday to Friday week.
-                Weekday.MONDAY, Weekday.TUESDAY, Weekday.WEDNESDAY, Weekday.THURSDAY, Weekday.FRIDAY);
+        this(id, name, licenceNumber, "General Clinic, Room 1", DEFAULT_WORKING_DAYS);
     }
 
     /**

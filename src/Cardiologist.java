@@ -46,9 +46,7 @@ public class Cardiologist extends Doctor {
      * @throws IllegalArgumentException if any detail is missing or invalid
      */
     public Cardiologist(String id, String name, String licenceNumber, String subSpecialty) {
-        this(id, name, licenceNumber, subSpecialty,
-                // Default roster: the standard Monday to Friday week.
-                Weekday.MONDAY, Weekday.TUESDAY, Weekday.WEDNESDAY, Weekday.THURSDAY, Weekday.FRIDAY);
+        this(id, name, licenceNumber, subSpecialty, DEFAULT_WORKING_DAYS);
     }
 
     /**

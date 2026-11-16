@@ -80,7 +80,7 @@ public class AssignmentOne {
         // ------------------------------------------------------------------
         // Part 4 - modelling a single appointment
         // ------------------------------------------------------------------
-        Patient alice = new Patient("Alice Nguyen", "0412345678");
+        Patient alice = new Patient("Alice Walker", "0412345678");
         Patient ben = new Patient("Ben Carter", "0422334455");
         Patient cathy = new Patient("Cathy Wu", "0433556677");
         Patient daniel = new Patient("Daniel Osei", "0445667788");

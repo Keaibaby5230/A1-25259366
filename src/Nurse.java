@@ -19,9 +19,9 @@ public class Nurse extends HealthProfessional {
     /**
      * Creates a nurse with an ID, a name, a ward and the days worked.
      *
-     * @param id         the ID of the nurse, digits only
-     * @param name       the full name of the nurse
-     * @param ward       the ward the nurse works on
+     * @param id          the ID of the nurse, digits only
+     * @param name        the full name of the nurse
+     * @param ward        the ward the nurse works on
      * @param workingDays the days of the week the nurse works
      * @throws IllegalArgumentException if any detail is missing or invalid
      */
@@ -43,9 +43,7 @@ public class Nurse extends HealthProfessional {
      * @throws IllegalArgumentException if any detail is missing or invalid
      */
     public Nurse(String id, String name, String ward) {
-        this(id, name, ward,
-                // Default roster: the standard Monday to Friday week.
-                Weekday.MONDAY, Weekday.TUESDAY, Weekday.WEDNESDAY, Weekday.THURSDAY, Weekday.FRIDAY);
+        this(id, name, ward, DEFAULT_WORKING_DAYS);
     }
 
     /**

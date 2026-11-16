@@ -61,7 +61,7 @@ public class ClinicSchedule {
         if (slotMinutes <= 0) {
             throw new IllegalArgumentException("Slot length must be at least one minute: " + slotMinutes);
         }
-        if (startHour < 0 || endHour > 24 || endHour <= startHour) {
+        if (startHour < 0 || startHour > 23 || endHour < 1 || endHour > 24 || endHour <= startHour) {
             throw new IllegalArgumentException(
                     "The clinic must open and close within one day: " + startHour + " to " + endHour);
         }

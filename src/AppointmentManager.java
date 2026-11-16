@@ -82,7 +82,7 @@ public class AppointmentManager {
         if (!healthProfessional.worksOn(day)) {
             return "WARNING: " + healthProfessional.getName() + " (ID " + healthProfessional.getId()
                     + ") does not work on " + day + ". Working days: "
-                    + healthProfessional.getWorkingDays() + ".";
+                    + healthProfessional.getWorkingDaysText() + ".";
         }
         if (isBooked(healthProfessional, day, timeSlot)) {
             return "WARNING: " + healthProfessional.getName() + " (ID " + healthProfessional.getId()
